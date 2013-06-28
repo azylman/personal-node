@@ -1,0 +1,43 @@
+doctype 5
+html
+  head
+    block css
+      link(rel='stylesheet', href='/lib/bootstrap/docs/assets/css/bootstrap.css')
+      link(rel='stylesheet', href='/css/layout.css')
+      link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Cabin:400,600,700')
+    title
+      block title
+        | Alex Zylman
+  body
+    div#header
+      a(href='/')
+        h1 Alex Zylman
+    div#about
+      div.container
+        a(href='/')
+          img#pic(src='/images/me.png')
+        div#icons
+          div
+            a(href='http://github.com/azylman')
+              img(src='/images/github.png')
+          div
+            a(href='http://twitter.com/amzylman')
+              img(src='/images/twitter.png')
+          div
+            a(href='http://linkedin.com/in/azylman')
+              img(src='/images/linkedin.png')
+        div#keywords
+          h2
+            div full-stack developer
+            div polyglot programmer
+            div entrepreneur, code junkie
+    div#content.container
+      block body
+    div#footer
+      div.container
+        | &copy;2012 Alex Zylman
+        div.right
+          | Theme shamelessly ripped off ("inspired") by
+          a(href='http://templaedhel.com/')  Cosmo Wolfe
+    block js
+      //- script(src='/lib/jquery/jquery.min.js')

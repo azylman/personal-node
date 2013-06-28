@@ -1,0 +1,66 @@
+/* === HEADER, FOOTER, AND ABOUT === */
+body {
+  font-family: 'Cabin';
+  color: #333;
+}
+#header {
+  border-top: 5px solid #000;
+}
+#header h1 {
+  padding-top: 20px;
+  font-size: 60px; /* Twice the size of a regular h1 */
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+#about {
+  background: #15c;
+  color: #EEE;
+  margin-bottom: 10px;
+}
+img#pic {
+  margin-right: 15px;
+  float: left;
+  /* The whole about bar has a height of 140px */
+  border-radius: 60px;
+  width: 120px;
+  height: 120px;
+  margin-top: 10px;
+}
+#icons {
+  float: right;
+  margin-top: 10px;
+}
+#icons img {
+  width: 32px;
+  height: 32px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+#footer {
+  margin-top: 20px;
+  border-bottom: 5px solid #000;
+}
+#footer > .container {
+  border-top: 1px solid #BBB;
+  margin-bottom: 10px;
+}
+#footer .right {
+  float: right;
+}
+
+/* === APPLY TO ALL PAGES === */
+#content {
+  font-size: 16px;
+  line-height: 22px;
+}
+#content h3 {
+  font-size: 38.5px; /* Size of a regular h1 */
+}
+#content h4 { /* Same as a regular h3 */
+  font-size: 24.5px;
+}
+#content h5 { /* Same size as regular text */
+  line-height: 25px;
+  font-size: 18px;
+}

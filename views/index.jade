@@ -1,0 +1,26 @@
+extend layout
+
+block append css
+  link(rel='stylesheet', href='/css/index.css')
+
+block body
+  div#projects.section
+    h3 Projects
+    | You can find highlights of some of the things I've built on my
+    a(href='/projects')  projects page
+    |  as well as many more things at
+    a(href='http://www.github.com/azylman')  my Github page.
+  div#work.section
+    h3 Work experience
+    each job in jobs
+      div.job
+        h4.company= job.company
+        h5.title= job.title
+        span.duration= job.duration
+        div.description= job.description
+  div#education.section
+    h3 Education
+    h4 Northwestern University
+    div B.S. Computer Engineering, Class of 2012
+    div GPA: 3.88
+    div#activities Residential College Board (Vice President of Public Relations); Slivka Residential College (Director of Technology); IEEE, NU Chapter (Secretary. Webmaster)

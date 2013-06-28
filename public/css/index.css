@@ -1,0 +1,27 @@
+#activities:before {
+  content: 'Activities: ';
+  font-style: italic;
+}
+#activities {
+}
+.section + .section {
+  margin-top: 30px;
+}
+.company {
+  font-size: 24.5px;
+}
+span.duration {
+  margin-left: 10px;
+}
+span.duration:before {
+  content: '(';
+}
+span.duration:after {
+  content: ')';
+}
+.job > h5 {
+  display: inline;
+}
+.job + .job {
+  margin-top: 20px;
+}

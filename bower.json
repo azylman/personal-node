@@ -1,0 +1,8 @@
+{
+  "name": "personal",
+  "version": "0.0.0",
+  "dependencies": {
+    "bootstrap": "~2.2.1",
+    "jquery": "~1.8.3"
+  }
+}

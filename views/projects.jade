@@ -1,0 +1,16 @@
+extend layout
+
+block append css
+  link(rel='stylesheet', href='/css/projects.css')
+
+block title
+  | Alex Zylman's projects
+
+block body
+  div#projects
+    each project in projects
+      div.project(style="text-align:#{project.orientation}")
+        h3
+          a(href=project.link)= project.name
+        span.desc= project.desc
+        img(src=project.img)

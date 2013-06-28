@@ -1,0 +1,11 @@
+.project {
+  padding-bottom: 10px;
+}
+.project > h4 { /* Same as a regular h3 */
+  font-size: 24.5px;
+  line-height: 40px;
+}
+.project img {
+  width: 940px;
+  height: 200px;
+}

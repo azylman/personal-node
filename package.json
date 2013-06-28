@@ -1,0 +1,27 @@
+{
+  "name": "personal-website",
+  "description": "my personal website",
+  "version": "0.0.1",
+  "author": "alex zylman <alex.zylman@gmail.com>",
+  "dependencies": {
+    "underscore": "~1.4.2",
+    "coffee-script": "~1.6.3",
+    "async": "~0.1.22",
+    "express": "~3.0.0",
+    "mongoose": "~3.3.1",
+    "moment": "~1.7.2",
+    "quest": "~0.1.0",
+    "jade": "~0.27.7"
+  },
+  "devDependencies": {
+    "node-dev": "~0.2.8",
+    "mocha": "~1.6.0"
+  },
+  "engines": {
+    "node": ">=0.8.x",
+    "npm": ">=1.1.5"
+  },
+  "scripts": {
+    "dev-server": "bower install && node_modules/node-dev/node-dev server.coffee"
+  }
+}
