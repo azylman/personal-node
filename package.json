@@ -11,7 +11,8 @@
     "mongoose": "~3.3.1",
     "moment": "~1.7.2",
     "quest": "~0.1.0",
-    "jade": "~0.27.7"
+    "jade": "~0.27.7",
+    "markdown-js": "0.0.3"
   },
   "devDependencies": {
     "node-dev": "~0.2.8",

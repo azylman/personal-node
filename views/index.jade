@@ -6,10 +6,10 @@ block append css
 block body
   div#projects.section
     h3 Projects
-    | You can find highlights of some of the things I've built on my
-    a(href='/projects')  projects page
-    |  as well as many more things at
-    a(href='http://www.github.com/azylman')  my Github page.
+    :markdown
+      You can find highlights of some of the things I've built on my
+      [projects page](/projects) as well as many more things at my
+      [Github page](http://www.github.com/azylman).
   div#work.section
     h3 Work experience
     each job in jobs
