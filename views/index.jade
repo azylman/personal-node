@@ -4,6 +4,32 @@ block append css
   link(rel='stylesheet', href='/css/index.css')
 
 block body
+  div#summary.section
+    h3 About me
+    :markdown
+      I'm a full-stack developer with experience in a very wide array of languages and
+      technologies. I strive to end every day with more knowledge than I started, whether
+      it be a new framework, an obscure feature of Node that I didn't know about before,
+      or tracking down a bug in one of the technologies I work with.
+
+      Previously, I worked at Google on the Google Groups team, where I wrote algorithms
+      to make the Groups product more social and dynamic - integrating your past behavior
+      and social interactions to give you advanced recommendations for topics that will be
+      interesting to you.
+
+      Currently, I'm working for Clever, a Y Combinator company. I was their first hire,
+      brought on just before they entered Y Combinator in the summer of 2012, so I've been
+      with the company since almost the beginning. In my time at Clever, I've done many
+      things: I've had fun, I've learned new things, and I've taught others new things.
+      But most of all, I've shipped code.
+
+      Lots and lots of code.
+
+      As I've seen our platform grow from 40 schools to 4000, I've dealt first hand with
+      scaling problems. I've rewritten crucial parts of our technology stack to deal
+      with increased load, moved us to Gearman to handle background jobs, and rewritten
+      our permissions system (twice!) that is used to determine access to every document
+      in our database.
   div#projects.section
     h3 Projects
     :markdown
